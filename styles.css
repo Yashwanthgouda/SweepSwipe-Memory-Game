@@ -293,7 +293,7 @@ button:hover {
 }
 
 /* Responsive Adjustments */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     h1 {
         font-size: 2em;
     }
@@ -323,7 +323,7 @@ button:hover {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1080px) {
     .score-panel {
         flex-direction: column;
     }
