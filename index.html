@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video id="background-video" autoplay muted loop>
+        <source src="istockphoto-1482875170-640_adpp_is.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <div class="game-container">
+        <h1 class="rainbow-title">
+            <span>s</span><span>w</span><span>e</span><span>e</span><span>p</span><span>S</span><span>w</span><span>i</span><span>p</span><span>e</span>
+        </h1>
+        
+        <div class="difficulty-selector">
+            <label for="difficulty">Level:</label>
+            <select id="difficulty">
+                <option value="4x4" selected>Easy</option>
+                <option value="6x6">Hard</option>
+            </select>
+        </div>
+        <br>
+        <div class="card-type-selector">
+            <label for="cardType">Choose Card Type:</label>
+            <select id="card-type">
+                <option value="fruits">Fruits</option>
+                <option value="alphabets">Alphabets</option>
+                <option value="numbers">Numbers</option>
+                <option value="symbols">Emoji</option>
+            </select>
+        </div>
+        <br>
+
+        <div class="score-panel">
+            <span class="moves">0 Moves</span>
+            <span class="timer">Time: 0:00</span>
+            <button id="toggle-sound">Sound: ON</button>
+            <button id="restart-game">Restart</button>
+        </div>
+
+        <div class="game-board"></div>
+        
+
+        <!-- <button id="start-game">Start Game</button> -->
+       
+        <!-- Winning Modal -->
+        <div id="winning-modal" class="modal">
+            <div class="modal-content">
+                <div id="winning-message"></div>
+                <button id="restart-modal">Restart</button>
+                <button id="close-modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
