@@ -32,9 +32,7 @@ CSS3: For styling and responsive design.
 JavaScript: For game logic and interactivity.
 
 Screenshots:
-![SweepSwipe](https://github.com/user-attachments/assets/3ab5b558-d485-4327-99e0-c6efc7ed3c2b)
-![Screenshot 2024-08-25 093451](https://github.com/user-attachments/assets/ead262df-24b0-46e8-b1f0-8008150c43c7)
+![SweepSwipe](https://github.com/user-attachments/assets/7812c838-952d-4894-8c65-b268210002f8)
+![Screenshot 2024-08-25 093451](https://github.com/user-attachments/assets/d810fcee-4210-4bec-8d9b-9053e8a9a6dd)
 
-
-   
 
